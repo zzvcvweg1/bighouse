@@ -12385,9 +12385,9 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ];
 
-campaignTrail_temp.candidate_image_url = "https://s7d1.scene7.com/is/image/isp/governor-pritzker-headshot?qlt=100&wid=600&ts=1686589145006&$Responsive$&fit=constrain";
+campaignTrail_temp.candidate_image_url = "https://file.garden/aNtjn2887DiA_8HP/jb2020.jpg";
 
-campaignTrail_temp.running_mate_image_url = "https://upload.wikimedia.org/wikipedia/commons/c/c0/8R4A9872_%2853367444225%29_%28Whitmer1%29.jpg";
+campaignTrail_temp.running_mate_image_url = "https://file.garden/aNtjn2887DiA_8HP/gretch2020-v2.jpg";
 
 campaignTrail_temp.candidate_last_name = "Pritzker";
 
