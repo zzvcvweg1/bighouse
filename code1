@@ -314,3 +314,147 @@ campaignTrail_temp.modBoxTheme = {
     "ui_text_color": "#ffffff"
 };
 
+(function () {
+    var colors = {
+        main: "#ffffff",
+        accent: "#0000ff",
+        purple: "#3918af",
+        text: "#000000",
+        inverse: "#ffffff"
+    };
+
+    if (typeof nct_stuff !== "undefined" && nct_stuff.themes && nct_stuff.themes[nct_stuff.selectedTheme]) {
+        var selected = nct_stuff.themes[nct_stuff.selectedTheme];
+        selected.coloring_title = colors.accent;
+        selected.coloring_window = colors.main;
+        selected.text_col = colors.text;
+        selected.coloring_container = colors.main;
+    }
+
+    corrr = '<h2>2020 JB: THE BIG HOUSE</h2><font id="wittyquote" size="4" color="#ffffff"><em>Think Big!</em></font>';
+
+    var header = document.getElementById("header");
+    if (header) header.src = "https://static.politico.com/4c/56/684318c24d9e88b76a176610a439/pride-parades-87975.jpg";
+
+    var gameHeader = document.querySelector(".game_header");
+    if (gameHeader) {
+        gameHeader.style.backgroundColor = colors.accent;
+        gameHeader.innerHTML = corrr;
+    }
+
+    var gameWindow = document.getElementById("game_window");
+    if (gameWindow) {
+        gameWindow.style.backgroundColor = colors.main;
+        gameWindow.style.borderColor = colors.accent;
+    }
+
+    var container = document.querySelector(".container");
+    if (container) container.style.backgroundColor = colors.main;
+
+    document.body.style.backgroundColor = colors.accent;
+    document.body.style.backgroundImage = 'url(' + "https://chicagotribune.com/wp-content/uploads/migration/2020/11/16/AEZSPRMHBBBIRDGPHF44J66RZY.jpg?w=535" + ')';
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundPosition = "center center";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+
+    var style = document.getElementById("jb-big-house-full-theme");
+    if (!style) {
+        style = document.createElement("style");
+        style.id = "jb-big-house-full-theme";
+        document.head.appendChild(style);
+    }
+    style.textContent = `
+        body {
+            background-color: #0000ff !important;
+            background-image: url("https://chicagotribune.com/wp-content/uploads/migration/2020/11/16/AEZSPRMHBBBIRDGPHF44J66RZY.jpg?w=535") !important;
+            background-repeat: no-repeat !important;
+            background-position: center center !important;
+            background-size: cover !important;
+            background-attachment: fixed !important;
+        }
+        #header {
+            display: block;
+            width: 100%;
+            max-width: 1080px;
+            height: 185px;
+            object-fit: cover;
+            object-position: center 42%;
+        }
+        .container {
+            background-color: #ffffff !important;
+            color: #000000 !important;
+            border: 2px solid #0000ff !important;
+        }
+        #game_window {
+            background-color: #ffffff !important;
+            border: 2px solid #0000ff !important;
+            color: #000000 !important;
+        }
+        .game_header {
+            background-color: #0000ff !important;
+            color: #ffffff !important;
+        }
+        .game_header h2,
+        #wittyquote {
+            color: #ffffff !important;
+        }
+        .inner_window_front,
+        .inner_window_w_desc,
+        .inner_window_question,
+        .person_description_window,
+        .election_description_window,
+        .description_window_small,
+        #inner_window_2 {
+            background-color: #ffffff !important;
+            color: #000000 !important;
+        }
+        .campaign_trail_start_emphasis {
+            background-color: #0000ff !important;
+            color: #ffffff !important;
+        }
+        #game_start {
+            background-color: #0000ff !important;
+            color: #ffffff !important;
+            border-color: #3918af !important;
+        }
+        #state_info h3,
+        #state_result h3,
+        #overall_result h3,
+        .overlay_window h3,
+        .inner_window_question h3 {
+            background-color: #0000ff !important;
+            color: #ffffff !important;
+        }
+        #overall_result_container,
+        #menu_container,
+        #state_result_container {
+            background-color: #ffffff !important;
+            color: #000000 !important;
+        }
+        #campaign_sign,
+        #bottomBar {
+            background-color: #3918af !important;
+            border-color: #0000ff !important;
+            color: #ffffff !important;
+        }
+        #campaign_sign *,
+        #bottomBar * {
+            color: #ffffff !important;
+        }
+        .overlay_window {
+            height: auto;
+        }
+        #map_footer {
+            padding-top: 3em;
+        }
+        @media (max-width: 800px) {
+            #header {
+                height: 125px;
+            }
+            body {
+                background-attachment: scroll !important;
+            }
+        }
+    `;
+})();
