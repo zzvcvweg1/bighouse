@@ -163,7 +163,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#0000ff",
             "secondary_color_hex": "#7ca8ec",
             "is_active": 0,
-            "image_url": "https://file.garden/aNtjn2887DiA_8HP/gretch2020.jpg",
+            "image_url": "https://file.garden/aNtjn2887DiA_8HP/gretch2020-v2.jpg",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
