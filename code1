@@ -15,7 +15,7 @@ campaignTrail_temp.election_json = [
             "no_electoral_majority_image": "https://thecampaigntrail.net/static/images/2012-no-majority.jpg",
             "creator": "Bloopie (ported + remastered by u/Bernie_El-Sayed)",
             "is_historical": false,
-            "display_year": "2020",
+            "display_year": "2020 JB: The Big House",
             "recommended_reading_enabled": false,
             "site_description": "An alternate 2020: incumbent Mitt Romney faces JB Pritzker and Gretchen Whitmer."
         }
