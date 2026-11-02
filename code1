@@ -17,7 +17,6 @@ campaignTrail_temp.election_json = [
             "is_historical": false,
             "display_year": "2020 JB: The Big House",
             "recommended_reading_enabled": false,
-            "site_description": "An alternate 2020: incumbent Mitt Romney faces JB Pritzker and Gretchen Whitmer."
         }
     }
 ];
