@@ -301,7 +301,7 @@ campaignTrail_temp.opponents_weighted_json = [
     }
 ];
 
-campaignTrail_temp.credits = "Bloopie";
+campaignTrail_temp.credits = "Bloopie (ported + remastered by u/Bernie_El-Sayed)";
 
 campaignTrail_temp.modBoxTheme = {
     "header_color": "#0000ff",
