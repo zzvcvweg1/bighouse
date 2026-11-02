@@ -5,7 +5,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1042,
         "fields": {
-            "description": "Congratulations! After a long and contentious primary battle against Joe Biden and Bernie Sanders, you have emerged victorious. What do you want to say in your acceptance speech?"
+            "description": "Congratulations! After a long and contentious primary battle against Elizabeth Warren, you have emerged victorious. What do you want to say in your acceptance speech?"
         }
     },
     {
@@ -26,7 +26,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1045,
         "fields": {
-            "description": "A common criticism thrown against you is your status as a billionaire. Leftists especially are hesitant about voting for you, and they are worried you don't care about their interests. Any response?"
+            "description": "A common criticism thrown against you is your status as a billionaire. Leftists, especially, are hesitant about voting for you, and they are worried you don't care about their interests. Any response?"
         }
     },
     {
@@ -89,7 +89,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1053,
         "fields": {
-            "description": "Uh oh JB. Some files have been \"leaked\" claiming your family's company, Hyatt, has been falsifying business records and stuffing your own pockets. Of course these leaks are fake, but many are believing it. Christie even mentioned it in a recent speech. How do you plan on handling this?"
+            "description": "Uh oh JB. Some files have been \"leaked\" claiming your family's company, Hyatt, has been falsifying business records and stuffing your own pockets. Of course, these leaks are fake, but many believe them. Christie even mentioned it in a recent speech. How do you plan on handling this?"
         }
     },
     {
@@ -304,7 +304,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5156,
         "fields": {
             "question": 1046,
-            "description": "I want to set up my own personal Twitter account, alongside our campaign account. I want to talk about my own life and seem relatable to the average American."
+            "description": "I want to set up my own personal Twitter account, alongside our campaign account. I want to talk about my own life and seem ignorable to the average American."
         }
     },
     {
@@ -312,7 +312,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5157,
         "fields": {
             "question": 1046,
-            "description": "Let's leave the social media campaign to our supporters. Twitter especially has enough people supporting my campaign and spreading our message. Instead, I'm going to do a tour of the late-night shows. SNL, Colbert, Fallon, and Kimmel."
+            "description": "Let's leave the social media campaign to our supporters. Twitter, especially, has enough people supporting my campaign and spreading our message. Instead, I'm going to do a tour of the late-night shows. SNL, Colbert, Fallon, and Kimmel."
         }
     },
     {
@@ -352,7 +352,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5184,
         "fields": {
             "question": 1055,
-            "description": "No, we will not have a lockdown. I believe that if everyone practiced social distancing, basic hygiene, and mask-wearing we can make this pandemic go away."
+            "description": "No, we will not have a lockdown. I believe that if everyone practiced social distancing, basic hygiene, and mask-wearing, we could make this pandemic go away."
         }
     },
     {
@@ -368,7 +368,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5265,
         "fields": {
             "question": 1055,
-            "description": "The CDC is not recommending that sort of action right now. In my presidency, I will listen to professionals, and implement policies based on their actions."
+            "description": "The CDC is not recommending that sort of action right now. In my presidency, I will listen to professionals and implement policies based on their actions."
         }
     },
     {
@@ -584,7 +584,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5203,
         "fields": {
             "question": 1060,
-            "description": "I won't make any promises yet, but once I am in office I will make an official report about the nation's infrastructure needs, and make a bill from that report."
+            "description": "I won't make any promises yet, but once I am in office, I will make an official report about the nation's infrastructure needs, and make a bill from that report."
         }
     },
     {
